@@ -14,7 +14,7 @@ mcpio is a tiny CLI that bridges shell I/O to one or more MCP servers. It launch
 
 ## Usage
 - Run two servers and mirror IO to console:
-  - `go run . -dir . -print -- codex codex mcp -- gemini --experimental-acp`
+  - `go run . -dir . -print -- codex codex mcp -- gemini geminig --experimental-acp`
 - On start, it prints file paths:
   - `[codex:files]: .mcpio/codex.in.fifo .mcpio/codex.out.log`
 - Send input:
